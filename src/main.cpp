@@ -142,7 +142,7 @@ void loop() {
     mainAppSwitcher.registerApp(new OswAppMagnetometerCalibrate());
 #endif
     // For a short howto write your own apps see: app below
-    // mainAppSwitcher.registerApp(new OswAppHelloWorld());
+    mainAppSwitcher.registerApp(new OswAppHelloWorld());
 
     // tools
 #if TOOL_STOPWATCH == 1

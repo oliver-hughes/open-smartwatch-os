@@ -1,3 +1,21 @@
+# Changes and Goals
+- Learning experience with embedded (whilst waiting for an STM32 to arrive)
+- 3D rendering in somewhat resource constrained scenario
+- Aim is to create a 3D / 2.5D watchface that shifts perspective based on accelerometer data.
+
+# Progress
+- [X] Simple wireframe 3D render of Cube
+  - [ ] Clean up & abstract to class
+- [X] Rotate cube on accelerometer data 
+  - [ ]  (need to work on smoothing + limiting data)
+- [ ] Simple lighting / shading
+  - [ ] Change lighting based on time of day (color & angle)?
+- [ ] Render circles / cylinders 
+- [ ] Create watchface
+
+---
+# ORIGINAL README:
+
 # HowTo Run
 
 **Please read the documentation on the [website](https://open-smartwatch.github.io/4_flashing/)!**

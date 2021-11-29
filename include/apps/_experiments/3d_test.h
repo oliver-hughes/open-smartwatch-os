@@ -11,6 +11,7 @@ class OswApp3DTest : public OswApp {
   virtual void setup() override;
   virtual void loop() override;
   virtual void stop() override;
+  virtual void debug();
   ~OswApp3DTest(){};
 
  private:
